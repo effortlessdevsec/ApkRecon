@@ -29,3 +29,6 @@ Basically,
 ```
 $ bash ApkRecon.sh <Apk file path>
 ```
+### Credits and Thanks
+- [@tomnomnom](https://github.com/tomnomnom/gf) - a `gf` patterns.
+- [@ndelphit](https://github.com/ndelphit) 
