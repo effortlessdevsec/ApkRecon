@@ -15,3 +15,17 @@ $ git clone https://github.com/effortlessdevsec/ApkRecon.git
 $ cd ApkRecon/
 $ bash install.sh
 ```
+
+You need to install:
+
+- apkurlgrep (https://github.com/ndelphit/apkurlgrep) and
+- [Jadx](https://github.com/skylot/jadx).
+- [gf](https://github.com/tomnomnom/gf).
+
+
+### Usage
+
+Basically,
+```
+$ bash ApkRecon.sh <Apk file path>
+```
