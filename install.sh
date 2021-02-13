@@ -7,3 +7,5 @@ sudo cp build/jadx/bin/jadx /usr/loca/bin
 
 go get -u github.com/tomnomnom/gf 
 echo 'source $GOPATH/src/github.com/tomnomnom/gf/gf-completion.bash' >> ~/.bashrc
+cp -r $GOPATH/src/github.com/tomnomnom/gf/examples ~/.gf
+cp config/Apksecret.json ~/.gf
