@@ -42,9 +42,9 @@ find_secrets()
 printf $"$run Extracting Secrets  \n"
 jadx $1 -d /tmp/$1
 printf $"$run Extracting Secrets  from sources\n"
-find /tmp/$1/sources/  -type f -print | grep -vE "R.java|r.java" | xargs -n 1 strings | gf -color secret2
+find /tmp/$1/sources/  -type f -print | grep -vE "R.java|r.java" | xargs -n 1 strings | gf -color Apksecret
 printf $"$run Extracting Secrets  from Resources\n"
-find /tmp/$1/resources/  -type f -print | xargs -n 1 strings | gf  -color secret2
+find /tmp/$1/resources/  -type f -print | xargs -n 1 strings | gf  -color Apksecret
 rm -r  /tmp/$1
 }
 
