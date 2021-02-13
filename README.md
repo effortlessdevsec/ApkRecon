@@ -5,3 +5,13 @@
 
 Scanning APK file for URIs, endpoints & secrets.
 extracting of all urls  and all sensitive data like key,secrets , password  from android application
+
+### Installation
+
+To install **ApkRecon**, simply:
+
+```
+$ git clone https://github.com/effortlessdevsec/ApkRecon.git
+$ cd ApkRecon/
+$ bash install.sh
+```
