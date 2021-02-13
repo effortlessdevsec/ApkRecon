@@ -18,7 +18,7 @@ $ bash install.sh
 
 You need to install:
 
-- apkurlgrep (https://github.com/ndelphit/apkurlgrep) and
+- apkurlgrep(https://github.com/ndelphit/apkurlgrep) 
 - [Jadx](https://github.com/skylot/jadx).
 - [gf](https://github.com/tomnomnom/gf).
 
