@@ -16,6 +16,10 @@ $ cd ApkRecon/
 $ bash install.sh
 ```
 
+###NOTE
+
+You can use your own custom regex.
+
 You need to install:
 
 - [apkurlgrep](https://github.com/ndelphit/apkurlgrep) 
