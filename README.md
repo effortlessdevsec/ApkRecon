@@ -16,7 +16,7 @@ $ cd ApkRecon/
 $ bash install.sh
 ```
 
-###NOTE
+### NOTE
 
 You can use your own custom regex.
 
